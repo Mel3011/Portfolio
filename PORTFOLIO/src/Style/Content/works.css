@@ -1,0 +1,58 @@
+.workslist {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.Works {
+  padding: 2rem;
+  background: white;
+  border-radius: 5px;
+  width: 25%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  .cover {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 15vw;
+    border-radius: 25px;
+    .cover-img {
+      width: 100%;
+      height: auto;
+      border-radius: 25px;
+      object-fit: contain;
+      cursor: pointer;
+      transform: translateY(0);
+      transition: 10s ease-in-out;
+    }
+    .cover-img:hover {
+      transform: translateY(calc(-100% + 10vw));
+      transition: 8s ease-in-out;
+    }
+  }
+}
+
+.linkProject {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.tools-project {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: flex-end;
+  .label {
+    background: orange;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    min-width: 40px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #5f608f;
+  height: 33px;
+  align-items: center;
+  .heart {
+    color: #ff6c5f;
+  }
+  .footerText {
+    color: white;
+  }
+}

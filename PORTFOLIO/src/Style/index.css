@@ -1,0 +1,8 @@
+@import "./Content/mobile.css";
+@import "./../Component/Header/header.css";
+@import "./settings.css";
+@import "./../Style/Content/aboutMe.css";
+@import "./../Style/Content/Profil.css";
+@import "./../Style/Content/works.css";
+@import "./../Style/Content/contact.css";
+@import "./../Component/Footer/footer.css";
