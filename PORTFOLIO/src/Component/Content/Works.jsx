@@ -2,6 +2,8 @@ import BOOKI from "../../assets/booki.webp";
 import SOPHIE from "../../assets/sophie.webp";
 import NINA from "../../assets/nina-carducci.webp";
 import KASA from "../../assets/kasa.webp";
+import GRIMOIRE from "../../assets/vieuxgrimoire.webp";
+import PORTFOLIO from "../../assets/portfolio.webp";
 
 const Works = () => {
   const works = [
@@ -46,7 +48,7 @@ const Works = () => {
     {
       title: "Mon vieux grimoire",
       description: "Développer le back-end d'un site de notation de livres",
-      image: KASA,
+      image: GRIMOIRE,
       imageAlt: "image description",
       tools: ["NodeJS", "ExpressJS", "MongoDB"],
       repo: "https://github.com/Mel3011/Projet7",
@@ -55,7 +57,7 @@ const Works = () => {
     {
       title: "Portfolio",
       description: "Créer et publier mon portfolio de développeur",
-      image: KASA,
+      image: PORTFOLIO,
       imageAlt: "image description",
       tools: ["Css", "SEO", "React"],
       repo: "https://github.com/Mel3011/Projet5",

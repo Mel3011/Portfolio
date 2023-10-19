@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import Melanie from "../../assets/melanie-avatar.png";
+import About from "../../assets/aboutme.webp";
 import { Line } from "rc-progress";
 const AboutMe = () => {
   return (
@@ -8,7 +8,7 @@ const AboutMe = () => {
         <h2>A propos de moi</h2>
         <div className="cv">
           <div className="image">
-            <img src={Melanie} alt="" />
+            <img src={About} alt="" />
           </div>
           <div className="competence">
             <div className="bio">
