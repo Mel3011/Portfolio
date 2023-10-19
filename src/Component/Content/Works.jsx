@@ -2,7 +2,7 @@ import BOOKI from "../../assets/booki.webp";
 import SOPHIE from "../../assets/sophie.webp";
 import NINA from "../../assets/nina-carducci.webp";
 import KASA from "../../assets/kasa.webp";
-import GRIMOIRE from "../../assets/vieuxgrimoire.webp";
+import GRIMOIRE from "../../assets/VieuxGrimoire.webp";
 import PORTFOLIO from "../../assets/portfolio.webp";
 
 const Works = () => {
