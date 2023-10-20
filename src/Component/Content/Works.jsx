@@ -24,7 +24,7 @@ const Works = () => {
       imageAlt: "image description",
       tools: ["Javascript"],
       repo: "https://github.com/Mel3011/Projet3",
-      link: "https://github.com/",
+      link: "https://github.com/Mel3011/Projet3",
     },
     {
       title: "Nina Carducci",
@@ -33,7 +33,7 @@ const Works = () => {
       imageAlt: "image description",
       tools: ["Html", "SEO", "DevTools"],
       repo: "https://github.com/Mel3011/Projet5",
-      link: "https://github.com/",
+      link: "https://projet5.vercel.app/",
     },
     {
       title: "KASA",
@@ -43,7 +43,7 @@ const Works = () => {
       imageAlt: "image description",
       tools: ["React", "Sass"],
       repo: "https://github.com/Mel3011/Projet6",
-      link: "https://github.com/",
+      link: "https://projet6-orpin.vercel.app/",
     },
     {
       title: "Mon vieux grimoire",
@@ -52,7 +52,7 @@ const Works = () => {
       imageAlt: "image description",
       tools: ["NodeJS", "ExpressJS", "MongoDB"],
       repo: "https://github.com/Mel3011/Projet7",
-      link: "https://github.com/",
+      link: "https://github.com/Mel3011/Projet7",
     },
     {
       title: "Portfolio",
@@ -61,7 +61,7 @@ const Works = () => {
       imageAlt: "image description",
       tools: ["Css", "SEO", "React"],
       repo: "https://github.com/Mel3011/Projet5",
-      link: "https://github.com/",
+      link: "https://portfolio-delta-green-36.vercel.app/",
     },
   ];
 

@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import About from "../../assets/aboutme.webp";
 import { Line } from "rc-progress";
+import pdfURL from "../../assets/cvmelanie.pdf";
+
 const AboutMe = () => {
   return (
     <section className="full_Page" id="part2">
@@ -20,7 +22,9 @@ const AboutMe = () => {
                 conviviales qui apportent de la valeur aux utilisateurs et aux
                 entreprises
               </p>
+              <a href={pdfURL} download="cvmelanie.pdf">
               <button>Télécharger mon CV</button>
+              </a>
             </div>
             <div className="skills">
               <div className="skill_info">
